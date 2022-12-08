@@ -18,26 +18,8 @@ import InterestSub from "./components/InterestSub";
 
 
 
-ReactDOM.render(
-<Router>
-    <Routes>
-        <Route path="/" element={<App/>} />
-        <Route path="/blog" element={<Blog/>} />
-        <Route path="/contact" element={<Contact/>} />
-        <Route path="/course_one" element={<CourseOne/>} />
-        <Route path="/course_two" element={<CourseTwo/>} />
-        <Route path='/course_three' element={<CourseThree/>} />
-        <Route path='/course_four' element={<CourseFour/>} />
-        <Route path='/admin' element={<Admin/>}/>
-        <Route path='/awards' element={<Awards/>}/>
-        <Route path='/others' element={<Others/>}/>
-        <Route path='/interest' element={<Interest/>}/>
-        <Route path='/interestsub' element={<InterestSub/>}/>
-    </Routes>
-</Router>
-
-    ,document.getElementById("root"));
-
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<Blog />);
 
 
 
