@@ -21,7 +21,7 @@ import InterestSub from "./components/InterestSub";
 ReactDOM.render(
 <Router>
     <Routes>
-        <Route path="/portfolio_11" element={<App/>} />
+        <Route path="/" element={<App/>} />
         <Route path="/blog" element={<Blog/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/course_one" element={<CourseOne/>} />
