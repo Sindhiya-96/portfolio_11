@@ -18,7 +18,7 @@ import InterestSub from "./components/InterestSub";
 
 
 
-ReactDOM.render(
+/*ReactDOM.render(
 <Router>
     <Routes>
         <Route path="/" element={<App/>} />
@@ -36,7 +36,10 @@ ReactDOM.render(
     </Routes>
 </Router>
 
-    ,document.getElementById("root"));
+    ,document.getElementById("root"));*/
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<h1>Hello, world!</h1>);
 
 
 
