@@ -19,7 +19,7 @@ import InterestSub from "./components/InterestSub";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Blog />);
+root.render(<p>ndkfbwekf</p>);
 
 
 
